@@ -46,7 +46,7 @@ export default function Home() {
 
   if (isLoading) {
     return (
-      <div className="h-screen w-screen flex items-center justify-center bg-white dark:bg-black">
+      <div className="h-screen w-screen flex items-center justify-center bg-white dark:bg-darktheme">
         <Loader />
       </div>
     );

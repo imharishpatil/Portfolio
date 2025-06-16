@@ -78,24 +78,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Local Nest',
+        description: 'Ecommerce Website.',
+        bgImage: '/work-1.jpg',
+        link: 'https://github.com/danusavadi123/final-project',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'URL Shortner',
+        description: 'Short URL Genarator.',
+        bgImage: '/work-2.jpg',
+        link: 'https://github.com/imharishpatil/URL-SHORTNER',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Amazon Clone',
+        description: 'Amazon.com Clone.',
+        bgImage: '/work-3.jpg',
+        link: 'https://github.com/imharishpatil/Amazon.com-Clone',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Currency Converter',
+        description: 'Curency Converter Website',
+        bgImage: '/work-4.jpg',
+        link: 'https://github.com/imharishpatil/Currency-Converter',
     },
 ]
 

@@ -47,13 +47,13 @@ const Work = ({ isDarkMode, setIsDarkMode }) => {
         className="custom-grid my-10 gap-5 dark:text-black"
       >
         {workData.map((project, index) => (
+          <a target="_blank" href={project.link} key={index}>          
           <motion.div
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
-            key={index}
             style={{ backgroundImage: `url(${project.bgImage})` }}
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-          >
+            >
             <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
               <div>
                 <h2 className="font-semibold">{project.title}</h2>
@@ -64,6 +64,7 @@ const Work = ({ isDarkMode, setIsDarkMode }) => {
               </div>
             </div>
           </motion.div>
+          </a>
         ))}
       </motion.div>
 
@@ -71,7 +72,8 @@ const Work = ({ isDarkMode, setIsDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 1.1 }}
-        href=""
+        target="_blank"
+        href="https://github.com/imharishpatil"
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
         Show more{" "}
