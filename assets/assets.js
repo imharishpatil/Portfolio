@@ -104,10 +104,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Skills', description: 'Proficient in React, Node.js, Express, MongoDB, PHP, MySQL, and Tailwind and so on...', link: '' },
-    { icon: assets.mobile_icon, title: 'Achievements', description: 'Participated & won genaral championship in intercollege fest in Ilakal college...', link: '' },
-    { icon: assets.ui_icon, title: 'Certificates', description: 'certified by credible platforms like internshala, Simplilearn and Great Learning...', link: '' },
-    { icon: assets.graphics_icon, title: 'Tools & Technologies', description: 'Visual Studio Code, Git & GitHub, Postman, XAMPP and other Frameworks...', link: '' },
+    { icon: assets.web_icon, title: 'Skills', description: 'Proficient in React, Node.js, Express, MongoDB, PHP, MySQL, TypeScript and also problem solving nd time management skill with learning attitude...', link: '' },
+    { icon: assets.mobile_icon, title: 'Achievements', description: 'Participated & won genaral championship in intercollege fest in Ilakal college and got third place in a coading hackthon in that compitition...', link: '' },
+    { icon: assets.ui_icon, title: 'Certificates', description: 'certified by credible platforms like internshala(Backend with NodeJs & MongoDB), Simplilearn(MERN Stack) and Great Learning(Docker and Kubernetes)...', link: '' },
+    { icon: assets.graphics_icon, title: 'Tools & Technologies', description: 'Visual Studio Code, Git & GitHub, Postman, XAMPP, Docker, GraphQL, REST and GraphQL API,Tailwind, AWS(Basic), NEXTJs and other Frameworks...', link: '' },
 ]
 
 export const infoList = [
