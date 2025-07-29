@@ -5,11 +5,11 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
-import vscode from './vscode.png';
-import firebase from './Postman.png';
-import figma from './docker.png';
-import git from './git.png';
-import mongodb from './mongodb.png';
+import graphql from './graphql.png';
+import react from './react.png';
+import node from './node.png';
+import express from './express.png';
+import mongo from './mongo.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -27,10 +27,10 @@ import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
-import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
-import ui_icon from './ui-icon.png';
-import graphics_icon from './graphics-icon.png';
+import frontend from './frontend.png';
+import backend from './backend.png';
+import devops from './devops.png';
+import blog from './blog.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -44,11 +44,11 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
-    vscode,
-    firebase,
-    figma,
-    git,
-    mongodb,
+    react,
+    node,
+    express,
+    mongo,
+    graphql,
     right_arrow_white,
     logo,
     logo_dark,
@@ -66,10 +66,10 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-    web_icon,
-    mobile_icon,
-    ui_icon,
-    graphics_icon,
+    frontend,
+    backend,
+    devops,
+    blog,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -77,37 +77,41 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Local Nest',
-        description: 'Ecommerce Website.',
-        bgImage: '/work-1.jpg',
-        link: 'https://github.com/danusavadi123/final-project',
-    },
-    {
-        title: 'URL Shortner',
-        description: 'Short URL Genarator.',
-        bgImage: '/work-2.jpg',
-        link: 'https://github.com/imharishpatil/URL-SHORTNER',
-    },
-    {
-        title: 'Amazon Clone',
-        description: 'Amazon.com Clone.',
-        bgImage: '/work-3.jpg',
-        link: 'https://github.com/imharishpatil/Amazon.com-Clone',
-    },
-    {
-        title: 'Currency Converter',
-        description: 'Curency Converter Website',
-        bgImage: '/work-4.jpg',
-        link: 'https://github.com/imharishpatil/Currency-Converter',
-    },
-]
+  {
+    title: 'PromptHub',
+    description: 'The Smart Prompt Recipe Book for AI Power Users. Goal: Full-stack web app to save, remix, and share AI prompts like code snippets.',
+    bgImage: '/work-1.png',
+    github: 'https://github.com/imharishpatil/Prompthub',
+    live: 'https://prompthub-gamma.vercel.app/', 
+  },
+  {
+    title: 'URL Shortner',
+    description: 'Built an end-to-end web app where users can shorten URLs and manage them securely. short url generater which converts your lengthy URL in shorter urls.',
+    bgImage: '/work-2.png',
+    github: 'https://github.com/imharishpatil/URL-SHORTNER',
+    live: 'https://url-shortner-three-silk.vercel.app/',
+  },
+  {
+    title: 'Amazon Clone',
+    description: 'This is a simple UI clone of the Amazon website. The project aims to replicate the basic structure and design of the Amazon homepage.',
+    bgImage: '/work-3.png',
+    github: 'https://github.com/imharishpatil/Amazon.com-Clone',
+    live: 'https://imharishpatil.github.io/Amazon.com-Clone/',
+  },
+  {
+    title: 'Currency Converter',
+    description: 'A simple currency converter web app that allows users to convert between different currencies using real-time exchange rates. ',
+    bgImage: '/work-4.png',
+    github: 'https://github.com/imharishpatil/Currency-Converter',
+    live: 'https://imharishpatil.github.io/Currency-Converter/',
+  },
+];
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Skills', description: 'Proficient in React, Node.js, Express, MongoDB, PHP, MySQL, TypeScript and also problem solving nd time management skill with learning attitude...', link: '' },
-    { icon: assets.mobile_icon, title: 'Achievements', description: 'Participated & won genaral championship in intercollege fest in Ilakal college and got third place in a coading hackthon in that compitition...', link: '' },
-    { icon: assets.ui_icon, title: 'Certificates', description: 'certified by credible platforms like internshala(Backend with NodeJs & MongoDB), Simplilearn(MERN Stack) and Great Learning(Docker and Kubernetes)...', link: '' },
-    { icon: assets.graphics_icon, title: 'Tools & Technologies', description: 'Visual Studio Code, Git & GitHub, Postman, XAMPP, Docker, GraphQL, REST and GraphQL API,Tailwind, AWS(Basic), NEXTJs and other Frameworks...', link: '' },
+    { icon: assets.frontend, title: 'Frontend Developer', description: 'proficient in HTML, CSS, and JavaScript, and frameworks like React, Next.js, and Tailwind CSS.', link: '' },
+    { icon: assets.backend, title: 'Backend Developer', description: 'Backend technologies like Node.js, Express, MongoDB, GraphQL, Postgres, Mysql and many more.', link: '' },
+    { icon: assets.devops, title: 'DevOps Engineer', description: 'Aspiring Devops with knowledge of Computern Network, OS, Linux and  Docker, CI& CD, Git Github.', link: '' },
+    { icon: assets.blog, title: 'Blog Writer', description: 'Posted some blogs on Medium and other platforms.', link: '' },
 ]
 
 export const infoList = [
@@ -117,5 +121,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.react, assets.node, assets.express, assets.mongo, assets.graphql
 ];

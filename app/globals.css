@@ -20,3 +20,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+
+.aspect-portfolio {
+  aspect-ratio: 2.11 / 1;
+}
